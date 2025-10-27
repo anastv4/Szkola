@@ -13,6 +13,12 @@ public class Main {
         System.out.println(osoba1);
         Osoba osoba2 = new Osoba("Asia",31);
         System.out.println(osoba2);
+        System.out.println("Liczba uczniow " + Uczen.getLiczbaUczniow());
+        Uczen uczen = new Uczen("Edmund",13,1234);
+        System.out.println(uczen);
+        Uczen uczen1 = new Uczen();
+        System.out.println(uczen1);
+        System.out.println("Liczba uczniow " + Uczen.getLiczbaUczniow());
 
     }
 }
