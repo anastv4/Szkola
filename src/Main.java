@@ -24,5 +24,12 @@ public class Main {
         nauczycielwf.wykonajDyzur();
         uczen1.wykonajDyzur();
 
+        Klasa klasa = new Klasa("3p");
+        System.out.println(klasa);
+        klasa.dodajUczniaDoKlasy(uczen1);
+        System.out.println(klasa);
+        klasa.dodajUczniaDoKlasy(uczen1);
+        klasa.dodajUczniaDoKlasy(uczen);
+
     }
 }
